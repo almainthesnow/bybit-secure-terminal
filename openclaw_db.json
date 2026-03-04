@@ -1,0 +1,16 @@
+{
+  "malware": [
+    {
+      "name": "OpenClaw.Bybit",
+      "hash": "a1b2c3d4e5f67890",
+      "paths": ["%APPDATA%\\OpenClaw", "%TEMP%\\claw_update.exe"],
+      "processes": ["openclaw.exe", "bybit-plugin.exe"]
+    },
+    {
+      "name": "Moltbot",
+      "hash": "f1e2d3c4b5a69780",
+      "paths": ["%PROGRAMFILES%\\Moltbot", "%USERPROFILE%\\AppData\\Local\\Moltbot"],
+      "processes": ["moltbot.exe", "polymarket-helper.exe"]
+    }
+  ]
+}
